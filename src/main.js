@@ -81,7 +81,7 @@ let step = (() => {
         window.scrollTo(0, 9999);
         html.scrollTo(0, 9999);
         step();
-    }, 50);
+    }, 40);
 });
 //对比起setInterval函数，这种方法可以随时停止。
 step();
