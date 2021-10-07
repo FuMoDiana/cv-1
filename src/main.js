@@ -8,8 +8,8 @@ let string = `/*你好，我是一名画画爱好者
 */
 #div1{
     border: 1px solid red;
-    width:400px;
-    height:400px;
+    width:300px;
+    height:300px;
 }
 /*
 然后把它变圆
@@ -34,8 +34,8 @@ let string = `/*你好，我是一名画画爱好者
     content:'';
     display:block;
     position:absolute;
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     top:0;
     left:50%;
     transform:translateX(-50%);
