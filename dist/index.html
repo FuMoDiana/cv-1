@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>太极图</title>
+</head>
+
+<body>
+    <style id="style"></style>
+    <div id="html"></div>
+    <div id="div1"></div>
+    <div id="div1Wrapper"></div>
+    <style>
+        #div1 {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+        }
+        
+        #html {
+            word-break: break-all;
+        }
+        
+        /*使用媒体查询，适应手机*/
+        
+        @media(max-width:500px) {
+            #html {
+                height: 50vh;
+                top: 0;
+                overflow: auto;
+            }
+            #divWrapper {
+                height: 50vh;
+            }
+            #div1 {
+                position: relative;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    
+</style>
+    <script src="/index.a8ca2038.js"></script>
+</body>
+
+</html>
